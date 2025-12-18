@@ -32,3 +32,11 @@ build/
 *.class
 *.o
 *.exe
+
+# CodeQL and analysis artifacts
+_codeql_detected_source_root
+root/
+
+# Go cache
+go.sum
+go.mod

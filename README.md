@@ -2,6 +2,12 @@
 
 A public repository containing CPRV's official code style configurations and formatting standards across languages and IDEs, to promote consistency, readability, and best practices.
 
+## 📚 Documentation
+
+- **[SETUP.md](SETUP.md)** - Quick setup guide for each language
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Guidelines for contributing
+- **[examples/](examples/)** - Example code demonstrating standards
+
 ## Overview
 
 This repository provides standardized configuration files for code formatting and linting across multiple programming languages and development environments. By using these configurations, teams can ensure consistent code style across projects.

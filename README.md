@@ -1,2 +1,2 @@
 # code-standards
-Code Styles
+Code Standards

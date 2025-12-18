@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files (except our templates in .vscode/)
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node modules (for testing configurations)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.class
+*.o
+*.exe

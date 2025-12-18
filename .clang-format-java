@@ -1,0 +1,8 @@
+---
+Language: Java
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 120
+UseTab: Never
+ContinuationIndentWidth: 8
+MaxEmptyLinesToKeep: 1

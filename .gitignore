@@ -16,6 +16,7 @@ Thumbs.db
 # Node modules (for testing configurations)
 node_modules/
 package-lock.json
+package.json
 
 # Python
 __pycache__/

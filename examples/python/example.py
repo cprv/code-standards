@@ -1,6 +1,6 @@
 """Example Python module demonstrating CPRV code standards."""
 
-from typing import List, Optional
+from typing import List
 
 
 class Calculator:

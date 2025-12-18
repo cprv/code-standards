@@ -33,7 +33,15 @@ git clone https://github.com/cprv/code-standards.git
 curl -O https://raw.githubusercontent.com/cprv/code-standards/main/.editorconfig
 ```
 
-### 2. Copy Configuration Files to Your Project
+### 2. Validate Your Setup (Optional)
+
+This repository includes a validation script to test all configurations:
+
+```bash
+./validate.sh
+```
+
+### 3. Copy Configuration Files to Your Project
 
 Copy the relevant configuration files to your project root:
 

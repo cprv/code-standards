@@ -1,17 +1,17 @@
 // Example C++ file demonstrating CPRV code standards
 
 #include <iostream>
-#include <vector>
 #include <stdexcept>
+#include <vector>
 
 /**
  * A simple calculator class demonstrating code standards
  */
 class Calculator {
-private:
+   private:
     double result;
 
-public:
+   public:
     /**
      * Constructor initializing result to 0
      */
@@ -31,16 +31,12 @@ public:
      * Get the current result
      * @return The current result value
      */
-    double getResult() const {
-        return result;
-    }
+    double getResult() const { return result; }
 
     /**
      * Reset the calculator to 0
      */
-    void reset() {
-        result = 0.0;
-    }
+    void reset() { result = 0.0; }
 };
 
 /**

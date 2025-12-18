@@ -51,10 +51,17 @@ class Calculator {
 }
 
 // Example usage
-const calc = new Calculator();
 const numbers = [1, 2, 3, 4, 5];
 const sum = calculateSum(numbers);
 
+// Using the Calculator class
+const calc = new Calculator();
+calc.add(10).add(20).add(30);
+
+// Log results (console allowed in examples)
+// eslint-disable-next-line no-console
 console.log(`Sum: ${sum}`);
+// eslint-disable-next-line no-console
+console.log(`Calculator result: ${calc.getResult()}`);
 
 export { Calculator, calculateSum };

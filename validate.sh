@@ -74,15 +74,12 @@ if command -v go &> /dev/null; then
     echo ""
 fi
 
-# C++ checks
+# C++ and Java checks (both use clang-format)
 if command -v clang-format &> /dev/null; then
     echo "⚙️  C++:"
     run_check "clang-format" "clang-format --dry-run --Werror examples/cpp/example.cpp"
     echo ""
-fi
-
-# Java checks
-if command -v clang-format &> /dev/null; then
+    
     echo "☕ Java:"
     run_check "clang-format (Java)" "clang-format --dry-run --Werror --style=file:.clang-format-java examples/java/Calculator.java"
     echo ""
